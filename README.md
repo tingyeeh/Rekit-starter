@@ -36,6 +36,14 @@ const history: History = createHistory()
 export default history;
 ```
 
+### 用法
+```
+git clone https://github.com/tingyeeh/Rekit-starter.git web-app
+cd web-app
+yarn install
+yarn start
+```
+
 ### 其他 TODO
 添加 semantic ui
 ```
