@@ -1,10 +1,10 @@
-# README
-### 升级Rekit Webpack 3 到 Webpack 4
+# 升级Rekit Webpack 3 到 Webpack 4
+### 升级必备安装
 ```
 yarn add --dev webpack webpack-dev-server webpack-manifest-plugin url-loader style-loader postcss-loader less-loader file-loader eslint-loader css-loader html-webpack-plugin mini-css-extract-plugin
 ```
 ### 做一些修改
-因为有以下 Warning
+#### 因为有以下 Warning
 ```
 React-Hot-Loader: react-🔥-dom patch is not detected. React 16.6+ features may not work.
 ```
@@ -16,8 +16,7 @@ yarn add --dev @hot-loader/react-dom
 ```
 'react-dom': '@hot-loader/react-dom',
 ```
-
-因为有以下 error
+#### 因为有以下 error
 ```
 Warning: Please use `require("history").createBrowserHistory` instead of `require("history/createBrowserHistory")`. Support for the latter will be removed in the next major release.
 ```
@@ -37,7 +36,7 @@ const history: History = createHistory()
 export default history;
 ```
 
-### 其他
+### 其他 TODO
 添加 semantic ui
 ```
 yarn add react-dom react-redux react-scripts react-textarea-autosize redux redux-form semantic-ui-react 
